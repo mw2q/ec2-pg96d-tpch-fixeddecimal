@@ -1,0 +1,37 @@
+BEGIN;
+BEGIN
+EXPLAIN
+select
+	sum(l_extendedprice) / 7.0 as avg_yearly
+from
+	lineitem,
+	part
+where
+	p_partkey = l_partkey
+	and p_brand = 'Brand#53'
+	and p_container = 'JUMBO CASE'
+	and l_quantity < (
+		select
+			0.2 * avg(l_quantity)
+		from
+			lineitem
+		where
+			l_partkey = p_partkey
+	);
+                                                                       QUERY PLAN                                                                       
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+ Aggregate  (cost=5868229.44..5868229.45 rows=1 width=8)
+   ->  Nested Loop  (cost=1.26..5867733.43 rows=198402 width=8)
+         ->  Index Only Scan using part_p_container_p_brand_p_partkey_idx on part  (cost=0.56..78374.83 rows=19839 width=4)
+               Index Cond: ((p_container = 'JUMBO CASE'::bpchar) AND (p_brand = 'Brand#53'::bpchar))
+         ->  Index Scan using lineitem_l_partkey_l_quantity_l_shipmode_idx on lineitem  (cost=0.70..291.72 rows=10 width=20)
+               Index Cond: (l_partkey = part.p_partkey)
+               Filter: ((l_quantity)::double precision < (SubPlan 1))
+               SubPlan 1
+                 ->  Aggregate  (cost=5.32..5.34 rows=1 width=8)
+                       ->  Index Only Scan using lineitem_l_partkey_l_quantity_l_shipmode_idx on lineitem lineitem_1  (cost=0.70..5.24 rows=31 width=8)
+                             Index Cond: (l_partkey = part.p_partkey)
+(11 rows)
+
+COMMIT;
+COMMIT

@@ -1,0 +1,206 @@
+2015-09-01 17:11:09 EDT [129163]: [1-1] user=,db=,app=,client= LOG:  database system was shut down at 2015-09-01 17:11:08 EDT
+2015-09-01 17:11:09 EDT [129163]: [2-1] user=,db=,app=,client= LOG:  MultiXact member wraparound protections are now enabled
+2015-09-01 17:11:09 EDT [129162]: [1-1] user=,db=,app=,client= LOG:  database system is ready to accept connections
+2015-09-01 17:11:09 EDT [129167]: [1-1] user=,db=,app=,client= LOG:  autovacuum launcher started
+2015-09-01 17:11:34 EDT [129164]: [1-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (25 seconds apart)
+2015-09-01 17:11:34 EDT [129164]: [2-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:11:34 EDT [129164]: [3-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:11:42 EDT [129164]: [4-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 53611 buffers (5.1%); 0 transaction log file(s) added, 18 removed, 0 recycled; write=7.398 s, sync=0.533 s, total=7.945 s; sync files=103, longest=0.019 s, average=0.005 s; distance=395847 kB, estimate=395847 kB
+2015-09-01 17:11:48 EDT [129164]: [5-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (14 seconds apart)
+2015-09-01 17:11:48 EDT [129164]: [6-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:11:48 EDT [129164]: [7-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:11:55 EDT [129164]: [8-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55691 buffers (5.3%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=6.230 s, sync=0.520 s, total=6.760 s; sync files=55, longest=0.018 s, average=0.009 s; distance=413342 kB, estimate=413342 kB
+2015-09-01 17:12:01 EDT [129164]: [9-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (13 seconds apart)
+2015-09-01 17:12:01 EDT [129164]: [10-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:12:01 EDT [129164]: [11-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:12:08 EDT [129164]: [12-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54759 buffers (5.2%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=6.394 s, sync=0.522 s, total=6.922 s; sync files=55, longest=0.020 s, average=0.009 s; distance=406504 kB, estimate=412658 kB
+2015-09-01 17:12:14 EDT [129164]: [13-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (13 seconds apart)
+2015-09-01 17:12:14 EDT [129164]: [14-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:12:14 EDT [129164]: [15-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:12:21 EDT [129164]: [16-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55340 buffers (5.3%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=6.459 s, sync=0.636 s, total=7.103 s; sync files=55, longest=0.026 s, average=0.011 s; distance=410813 kB, estimate=412474 kB
+2015-09-01 17:12:28 EDT [129164]: [17-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (14 seconds apart)
+2015-09-01 17:12:28 EDT [129164]: [18-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:12:28 EDT [129164]: [19-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:12:35 EDT [129164]: [20-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55557 buffers (5.3%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=6.506 s, sync=0.617 s, total=7.130 s; sync files=55, longest=0.024 s, average=0.011 s; distance=412412 kB, estimate=412468 kB
+2015-09-01 17:12:41 EDT [129164]: [21-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (13 seconds apart)
+2015-09-01 17:12:41 EDT [129164]: [22-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:12:41 EDT [129164]: [23-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:12:48 EDT [129164]: [24-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54805 buffers (5.2%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=6.187 s, sync=0.591 s, total=6.787 s; sync files=55, longest=0.021 s, average=0.010 s; distance=406941 kB, estimate=411915 kB
+2015-09-01 17:12:53 EDT [129164]: [25-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (12 seconds apart)
+2015-09-01 17:12:53 EDT [129164]: [26-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:12:53 EDT [129164]: [27-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:12:59 EDT [129164]: [28-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55750 buffers (5.3%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=5.468 s, sync=0.623 s, total=6.096 s; sync files=55, longest=0.025 s, average=0.011 s; distance=413869 kB, estimate=413869 kB
+2015-09-01 17:13:04 EDT [129164]: [29-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2015-09-01 17:13:04 EDT [129164]: [30-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:13:04 EDT [129164]: [31-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:13:10 EDT [129164]: [32-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54249 buffers (5.2%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=5.222 s, sync=0.769 s, total=5.999 s; sync files=55, longest=0.042 s, average=0.013 s; distance=402765 kB, estimate=412759 kB
+2015-09-01 17:13:15 EDT [129164]: [33-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2015-09-01 17:13:15 EDT [129164]: [34-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:13:15 EDT [129164]: [35-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:13:21 EDT [129164]: [36-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 56265 buffers (5.4%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=5.097 s, sync=0.550 s, total=5.653 s; sync files=55, longest=0.022 s, average=0.010 s; distance=417562 kB, estimate=417562 kB
+2015-09-01 17:13:26 EDT [129164]: [37-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (11 seconds apart)
+2015-09-01 17:13:26 EDT [129164]: [38-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:13:26 EDT [129164]: [39-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:13:31 EDT [129164]: [40-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54252 buffers (5.2%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=5.029 s, sync=0.546 s, total=5.582 s; sync files=55, longest=0.021 s, average=0.009 s; distance=402891 kB, estimate=416095 kB
+2015-09-01 17:13:36 EDT [129164]: [41-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2015-09-01 17:13:36 EDT [129164]: [42-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:13:36 EDT [129164]: [43-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:13:41 EDT [129164]: [44-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55740 buffers (5.3%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=4.828 s, sync=0.552 s, total=5.386 s; sync files=55, longest=0.022 s, average=0.010 s; distance=413787 kB, estimate=415864 kB
+2015-09-01 17:13:46 EDT [129164]: [45-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (10 seconds apart)
+2015-09-01 17:13:46 EDT [129164]: [46-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:13:46 EDT [129164]: [47-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:13:51 EDT [129164]: [48-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55525 buffers (5.3%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=4.512 s, sync=0.603 s, total=5.119 s; sync files=55, longest=0.042 s, average=0.010 s; distance=412468 kB, estimate=415525 kB
+2015-09-01 17:13:55 EDT [129164]: [49-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2015-09-01 17:13:55 EDT [129164]: [50-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:13:55 EDT [129164]: [51-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:14:00 EDT [129164]: [52-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54690 buffers (5.2%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=4.680 s, sync=0.125 s, total=4.817 s; sync files=55, longest=0.012 s, average=0.002 s; distance=405964 kB, estimate=414569 kB
+2015-09-01 17:14:04 EDT [129164]: [53-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (9 seconds apart)
+2015-09-01 17:14:04 EDT [129164]: [54-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:14:04 EDT [129164]: [55-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:14:09 EDT [129164]: [56-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54964 buffers (5.2%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=4.195 s, sync=0.581 s, total=4.785 s; sync files=55, longest=0.026 s, average=0.010 s; distance=408154 kB, estimate=413927 kB
+2015-09-01 17:14:12 EDT [129164]: [57-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2015-09-01 17:14:12 EDT [129164]: [58-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:14:12 EDT [129164]: [59-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:14:16 EDT [129164]: [60-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55805 buffers (5.3%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=3.616 s, sync=0.565 s, total=4.187 s; sync files=55, longest=0.022 s, average=0.010 s; distance=414607 kB, estimate=414607 kB
+2015-09-01 17:14:20 EDT [129164]: [61-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (8 seconds apart)
+2015-09-01 17:14:20 EDT [129164]: [62-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:14:20 EDT [129164]: [63-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:14:24 EDT [129164]: [64-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55127 buffers (5.3%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=3.455 s, sync=0.635 s, total=4.096 s; sync files=55, longest=0.042 s, average=0.011 s; distance=409471 kB, estimate=414094 kB
+2015-09-01 17:14:27 EDT [129164]: [65-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2015-09-01 17:14:27 EDT [129164]: [66-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:14:27 EDT [129164]: [67-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:14:31 EDT [129164]: [68-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54085 buffers (5.2%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=3.471 s, sync=0.201 s, total=3.682 s; sync files=55, longest=0.012 s, average=0.003 s; distance=401480 kB, estimate=412832 kB
+2015-09-01 17:14:34 EDT [129164]: [69-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (7 seconds apart)
+2015-09-01 17:14:34 EDT [129164]: [70-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:14:34 EDT [129164]: [71-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:14:37 EDT [129164]: [72-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55888 buffers (5.3%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=3.153 s, sync=0.575 s, total=3.737 s; sync files=55, longest=0.022 s, average=0.010 s; distance=415283 kB, estimate=415283 kB
+2015-09-01 17:14:40 EDT [129164]: [73-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (6 seconds apart)
+2015-09-01 17:14:40 EDT [129164]: [74-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:14:40 EDT [129164]: [75-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:14:44 EDT [129164]: [76-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 54502 buffers (5.2%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=2.982 s, sync=0.539 s, total=3.533 s; sync files=55, longest=0.022 s, average=0.009 s; distance=404492 kB, estimate=414204 kB
+2015-09-01 17:14:46 EDT [129164]: [77-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (6 seconds apart)
+2015-09-01 17:14:46 EDT [129164]: [78-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:14:46 EDT [129164]: [79-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:14:50 EDT [129164]: [80-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55396 buffers (5.3%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=2.854 s, sync=0.631 s, total=3.496 s; sync files=55, longest=0.046 s, average=0.011 s; distance=411483 kB, estimate=413932 kB
+2015-09-01 17:14:52 EDT [129164]: [81-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (6 seconds apart)
+2015-09-01 17:14:52 EDT [129164]: [82-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:14:52 EDT [129164]: [83-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:14:56 EDT [129164]: [84-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 55910 buffers (5.3%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=2.571 s, sync=0.561 s, total=3.144 s; sync files=55, longest=0.024 s, average=0.010 s; distance=415743 kB, estimate=415743 kB
+2015-09-01 17:14:58 EDT [129164]: [85-1] user=,db=,app=,client= LOG:  checkpoints are occurring too frequently (6 seconds apart)
+2015-09-01 17:14:58 EDT [129164]: [86-1] user=,db=,app=,client= HINT:  Consider increasing the configuration parameter "max_wal_size".
+2015-09-01 17:14:58 EDT [129164]: [87-1] user=,db=,app=,client= LOG:  checkpoint starting: xlog
+2015-09-01 17:15:48 EDT [129164]: [88-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 48847 buffers (4.7%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=50.377 s, sync=0.152 s, total=50.534 s; sync files=85, longest=0.014 s, average=0.001 s; distance=407346 kB, estimate=414903 kB
+2015-09-01 17:19:59 EDT [129164]: [89-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-01 17:19:59 EDT [129164]: [90-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 transaction log file(s) added, 25 removed, 0 recycled; write=0.015 s, sync=0.021 s, total=0.041 s; sync files=50, longest=0.009 s, average=0.000 s; distance=180783 kB, estimate=391491 kB
+2015-09-01 17:29:59 EDT [129164]: [91-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-01 17:29:59 EDT [129164]: [92-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 transaction log file(s) added, 11 removed, 0 recycled; write=0.011 s, sync=0.025 s, total=0.042 s; sync files=65, longest=0.001 s, average=0.000 s; distance=0 kB, estimate=352342 kB
+2015-09-01 17:34:59 EDT [129164]: [93-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-01 17:34:59 EDT [129164]: [94-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.010 s, sync=0.004 s, total=0.018 s; sync files=22, longest=0.000 s, average=0.000 s; distance=1 kB, estimate=317108 kB
+2015-09-01 17:44:59 EDT [129164]: [95-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-01 17:44:59 EDT [129164]: [96-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.011 s, sync=0.000 s, total=0.014 s; sync files=1, longest=0.000 s, average=0.000 s; distance=1 kB, estimate=285397 kB
+2015-09-01 17:47:02 EDT [129828]: [1-1] user=mark,db=dbt3,app=psql,client=[local] ERROR:  invalid memory alloc request size 2147483648
+2015-09-01 17:47:02 EDT [129828]: [2-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		s_name,
+		count(*) as numwait
+	from
+		supplier,
+		lineitem l1,
+		orders,
+		nation
+	where
+		s_suppkey = l1.l_suppkey
+		and o_orderkey = l1.l_orderkey
+		and o_orderstatus = 'F'
+		and l1.l_receiptdate > l1.l_commitdate
+		and exists (
+			select
+				*
+			from
+				lineitem l2
+			where
+				l2.l_orderkey = l1.l_orderkey
+				and l2.l_suppkey <> l1.l_suppkey
+		)
+		and not exists (
+			select
+				*
+			from
+				lineitem l3
+			where
+				l3.l_orderkey = l1.l_orderkey
+				and l3.l_suppkey <> l1.l_suppkey
+				and l3.l_receiptdate > l3.l_commitdate
+		)
+		and s_nationkey = n_nationkey
+		and n_name = 'ARGENTINA'
+	group by
+		s_name
+	order by
+		numwait desc,
+		s_name
+	LIMIT 100;
+2015-09-01 17:49:59 EDT [129164]: [97-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-01 17:49:59 EDT [129164]: [98-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.015 s, sync=0.000 s, total=0.018 s; sync files=1, longest=0.000 s, average=0.000 s; distance=1 kB, estimate=256858 kB
+2015-09-01 17:54:30 EDT [130036]: [1-1] user=mark,db=dbt3,app=psql,client=[local] ERROR:  invalid memory alloc request size 2147483648
+2015-09-01 17:54:30 EDT [130036]: [2-1] user=mark,db=dbt3,app=psql,client=[local] STATEMENT:  select
+		cntrycode,
+		count(*) as numcust,
+		sum(c_acctbal) as totacctbal
+	from
+		(
+			select
+				substr(c_phone, 1, 2) as cntrycode,
+				c_acctbal
+			from
+				customer
+			where
+				substr(c_phone, 1, 2) in
+					('26', '28', '21', '20', '18', '16', '11')
+				and c_acctbal > (
+					select
+						avg(c_acctbal)
+					from
+						customer
+					where
+						c_acctbal > 0.00
+						and substr(c_phone, 1, 2) in
+							('26', '28', '21', '20', '18', '16', '11')
+				)
+				and not exists (
+					select
+						*
+					from
+						orders
+					where
+						o_custkey = c_custkey
+				)
+		) as vip
+	group by
+		cntrycode
+	order by
+		cntrycode;
+2015-09-01 17:54:59 EDT [129164]: [99-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-01 17:54:59 EDT [129164]: [100-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.016 s, sync=0.000 s, total=0.019 s; sync files=1, longest=0.000 s, average=0.000 s; distance=2 kB, estimate=231172 kB
+2015-09-01 17:59:59 EDT [129164]: [101-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-01 17:59:59 EDT [129164]: [102-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.010 s, sync=0.000 s, total=0.013 s; sync files=1, longest=0.000 s, average=0.000 s; distance=2 kB, estimate=208055 kB
+2015-09-01 18:05:00 EDT [129164]: [103-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-01 18:05:01 EDT [129164]: [104-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 13 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=1.218 s, sync=0.007 s, total=1.228 s; sync files=18, longest=0.001 s, average=0.000 s; distance=105 kB, estimate=187260 kB
+2015-09-01 18:10:00 EDT [129164]: [105-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-01 18:10:00 EDT [129164]: [106-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.517 s, sync=0.002 s, total=0.522 s; sync files=6, longest=0.001 s, average=0.000 s; distance=17 kB, estimate=168536 kB
+2015-09-01 18:20:01 EDT [129164]: [107-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-01 18:20:01 EDT [129164]: [108-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.014 s, sync=0.001 s, total=0.019 s; sync files=1, longest=0.001 s, average=0.001 s; distance=2 kB, estimate=151682 kB
+2015-09-01 18:25:01 EDT [129164]: [109-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-01 18:25:01 EDT [129164]: [110-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.012 s, sync=0.000 s, total=0.015 s; sync files=1, longest=0.000 s, average=0.000 s; distance=2 kB, estimate=136514 kB
+2015-09-01 18:30:01 EDT [129164]: [111-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-01 18:30:01 EDT [129164]: [112-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.014 s, sync=0.000 s, total=0.018 s; sync files=1, longest=0.000 s, average=0.000 s; distance=2 kB, estimate=122863 kB
+2015-09-01 18:40:01 EDT [129164]: [113-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-01 18:40:01 EDT [129164]: [114-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 1 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.016 s, sync=0.000 s, total=0.019 s; sync files=1, longest=0.000 s, average=0.000 s; distance=2 kB, estimate=110577 kB
+2015-09-01 18:45:01 EDT [129164]: [115-1] user=,db=,app=,client= LOG:  checkpoint starting: time
+2015-09-01 18:47:02 EDT [129162]: [2-1] user=,db=,app=,client= LOG:  received fast shutdown request
+2015-09-01 18:47:02 EDT [129162]: [3-1] user=,db=,app=,client= LOG:  aborting any active transactions
+2015-09-01 18:47:02 EDT [129167]: [2-1] user=,db=,app=,client= LOG:  autovacuum launcher shutting down
+2015-09-01 18:47:02 EDT [129164]: [116-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 11890 buffers (1.1%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=120.692 s, sync=0.031 s, total=120.727 s; sync files=27, longest=0.026 s, average=0.001 s; distance=127311 kB, estimate=127311 kB
+2015-09-01 18:47:02 EDT [129164]: [117-1] user=,db=,app=,client= LOG:  shutting down
+2015-09-01 18:47:02 EDT [129164]: [118-1] user=,db=,app=,client= LOG:  checkpoint starting: shutdown immediate
+2015-09-01 18:47:02 EDT [129164]: [119-1] user=,db=,app=,client= LOG:  checkpoint complete: wrote 2694 buffers (0.3%); 0 transaction log file(s) added, 8 removed, 0 recycled; write=0.029 s, sync=0.020 s, total=0.052 s; sync files=9, longest=0.017 s, average=0.002 s; distance=29681 kB, estimate=117548 kB
+2015-09-01 18:47:02 EDT [129164]: [120-1] user=,db=,app=,client= LOG:  database system is shut down
